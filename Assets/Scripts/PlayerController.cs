@@ -5,11 +5,14 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody playerRb;
+    public float jumpForce;
+    public float gravitiyModifier;
 
     // Start is called before the first frame update
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
+        Physics.gravity *= gravitiyModifier;
         
     }
 
@@ -18,7 +21,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            playerRb.AddForce(Vector2.up * 10, ForceMode.Impulse);
+            playerRb.AddForce(Vector2.up * jumpForce, ForceMode.Impulse);
         }
     }
 }
