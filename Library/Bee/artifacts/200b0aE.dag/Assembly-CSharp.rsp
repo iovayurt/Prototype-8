@@ -351,6 +351,7 @@
 "Assets/Scripts/MoveForward.cs"
 "Assets/Scripts/MoveLeft.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/RepeatBackground.cs"
 -langversion:9.0
 
 /deterministic
