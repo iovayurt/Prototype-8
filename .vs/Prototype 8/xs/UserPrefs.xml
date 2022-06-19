@@ -4,7 +4,7 @@
       <File FileName="Assets/Scripts/RepeatBackground.cs" Line="17" Column="51" />
       <File FileName="Assets/Scripts/MoveForward.cs" />
       <File FileName="Assets/Scripts/MoveLeft.cs" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="31" Column="6" />
+      <File FileName="Assets/Scripts/PlayerController.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
