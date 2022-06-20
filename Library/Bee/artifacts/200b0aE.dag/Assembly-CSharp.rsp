@@ -352,6 +352,7 @@
 "Assets/Scripts/MoveLeft.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/RepeatBackground.cs"
+"Assets/Scripts/SpawnManager.cs"
 -langversion:9.0
 
 /deterministic
